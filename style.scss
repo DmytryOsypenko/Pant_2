@@ -1,0 +1,22 @@
+.header {
+  .row {
+    width: 1410px;
+    .manuEnglih {
+      height: 59px;
+      display: flex;
+      background-color: #0c4b35;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      align-items: center;
+      .TopNavbar {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: #ffffff;
+      }
+      .NavbarLenguage {
+        color: #ffffff;
+      }
+    }
+  }
+}
