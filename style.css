@@ -1,20 +1,63 @@
-.header .row {
-  width: 1410px;
+header .green {
+  background-color: #0c4b35;
 }
-.header .row .manuEnglih {
+header .green .container {
+  max-width: 1410 px;
+  padding-left: 15 px;
+  padding-right: 15 px;
+  margin: 0 auto;
+}
+header .green .container .headrMain {
   height: 59px;
   display: flex;
-  background-color: #0c4b35;
-  flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
 }
-.header .row .manuEnglih .TopNavbar {
+header .green .container .headrMain .linkManu {
   display: flex;
-  gap: 10px;
+}
+header .green .container .headrMain .linkManu .contact-menu {
+  display: flex;
   align-items: center;
+  gap: 30px;
   color: #ffffff;
 }
-.header .row .manuEnglih .NavbarLenguage {
+header .green .container .headrMain .linkManu .contact-menu img {
+  margin-right: 10px;
+  width: 20px;
+  height: auto;
+}
+header .green .container .headrMain .greenEnglish a {
+  text-decoration: none;
   color: #ffffff;
+}
+header .nawBar {
+  height: 85px;
+  padding-top: 15px;
+}
+header .nawBar .whiteCont {
+  background-color: #ffffff;
+}
+header .nawBar .whiteCont .container {
+  max-width: 1410 px;
+  padding-left: 15 px;
+  padding-right: 15 px;
+  margin: 0 auto;
+}
+header .nawBar .whiteCont .container .cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .nawBar .whiteCont .container .cont .logo {
+  width: 120px;
+  height: 55px;
+}
+header .nawBar .whiteCont .container .cont .menu-plants {
+  display: flex;
+  gap: 29px;
+}
+header .nawBar .whiteCont .container .cont .menu-plants a {
+  text-decoration: none;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */

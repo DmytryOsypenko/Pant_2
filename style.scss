@@ -1,21 +1,66 @@
-.header {
-  .row {
-    width: 1410px;
-    .manuEnglih {
-      height: 59px;
-      display: flex;
-      background-color: #0c4b35;
-      flex-wrap: nowrap;
-      justify-content: space-around;
-      align-items: center;
-      .TopNavbar {
+header {
+  .green {
+    background-color: #0c4b35;
+    .container {
+      max-width: 1410 px;
+      padding-left: 15 px;
+      padding-right: 15 px;
+      margin: 0 auto;
+      .headrMain {
+        height: 59px;
         display: flex;
-        gap: 10px;
+        justify-content: space-around;
         align-items: center;
-        color: #ffffff;
+        .linkManu {
+          display: flex;
+          .contact-menu {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            color: #ffffff;
+            img {
+              margin-right: 10px;
+              width: 20px;
+              height: auto;
+            }
+          }
+        }
+        .greenEnglish {
+          a {
+            text-decoration: none;
+            color: #ffffff;
+          }
+        }
       }
-      .NavbarLenguage {
-        color: #ffffff;
+    }
+  }
+  .nawBar {
+    height: 85px;
+    padding-top: 15px;
+    .whiteCont {
+      background-color: #ffffff;
+      .container {
+        max-width: 1410 px;
+        padding-left: 15 px;
+        padding-right: 15 px;
+        margin: 0 auto;
+        .cont {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          .logo {
+            width: 120px;
+            height: 55px;
+          }
+          .menu-plants {
+            display: flex;
+            gap: 29px;
+            a {
+              text-decoration: none;
+              color: #000000;
+            }
+          }
+        }
       }
     }
   }
