@@ -18,6 +18,9 @@ header {
             align-items: center;
             gap: 30px;
             color: #ffffff;
+            &:hover {
+              color: #9fc21b;
+            }
             img {
               margin-right: 10px;
               width: 20px;
@@ -29,6 +32,9 @@ header {
           a {
             text-decoration: none;
             color: #ffffff;
+            &:hover {
+              color: #9fc21b;
+            }
           }
         }
       }
@@ -58,6 +64,27 @@ header {
             a {
               text-decoration: none;
               color: #000000;
+              &:hover {
+                color: #9fc21b;
+              }
+            }
+          }
+
+          .btn {
+            width: 170px;
+            height: 50px;
+            background-color: #00730c;
+            &:hover {
+              background-color: #9fc21b;
+            }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            a {
+              text-align: center;
+              text-decoration: none;
+              color: #ffffff;
             }
           }
         }
