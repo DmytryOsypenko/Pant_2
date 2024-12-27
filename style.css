@@ -73,6 +73,7 @@ header .nawBar .whiteCont .container .cont .menu-plants a:hover {
 header .nawBar .whiteCont .container .cont .btn {
   width: 170px;
   height: 50px;
+  border-radius: 5px;
   background-color: #00730c;
   display: flex;
   justify-content: center;
@@ -86,4 +87,18 @@ header .nawBar .whiteCont .container .cont .btn a {
   text-align: center;
   text-decoration: none;
   color: #ffffff;
+}
+header .bg {
+  height: 719px;
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(-110deg, #00730c, #fbf6ee);
+}
+header .bg .content {
+  display: flex;
+  flex-direction: column;
+  font-family: "Nitro", sans-serif;
+}
+header .bg .content .servicesText p {
+  font-weight: 16px;
 }/*# sourceMappingURL=style.css.map */

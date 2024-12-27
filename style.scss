@@ -73,6 +73,7 @@ header {
           .btn {
             width: 170px;
             height: 50px;
+            border-radius: 5px;
             background-color: #00730c;
             &:hover {
               background-color: #9fc21b;
@@ -87,6 +88,23 @@ header {
               color: #ffffff;
             }
           }
+        }
+      }
+    }
+  }
+  .bg {
+    height: 719px;
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(-110deg, #00730c, #fbf6ee);
+    .content {
+      display: flex;
+      flex-direction: column;
+      font-family: "Nitro", sans-serif;
+      .servicesText {
+        p {
+          // font-size: bold;
+          font-weight: 16px;
         }
       }
     }
