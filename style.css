@@ -1,3 +1,16 @@
+.page2 {
+  height: 963 px;
+  background-color: #ffffff;
+  padding-top: 100px;
+}
+.page2 .obgortka .WorkingProcess h3 {
+  font-size: 45px;
+  font-weight: bold;
+}
+.page2 .obgortka .WorkingProcess h3 span {
+  color: #00730c;
+}
+
 header .green {
   background-color: #0c4b35;
 }
