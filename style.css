@@ -49,6 +49,57 @@
   color: #ffffff;
 }
 
+.section2 {
+  display: flex;
+  justify-self: space-around;
+}
+.section2 .rowContainer {
+  width: 690px;
+  height: 903px;
+  display: flex;
+}
+.section2 .rowContainer .imgCrts {
+  position: relative;
+}
+.section2 .rowContainer .imgCrts .imgBg {
+  background-color: #00730c;
+  width: 450px;
+  height: 706px;
+}
+.section2 .rowContainer .imgPosicion {
+  position: relative;
+}
+.section2 .rowContainer .imgPosicion .imgCrts2 {
+  position: absolute;
+  background-color: #c4c4c4;
+  width: 601px;
+  height: 741px;
+  left: 45px;
+  bottom: -75px;
+}
+.section2 .rowContainer .imgSmall {
+  position: relative;
+}
+.section2 .rowContainer .imgSmall .imgCrts3 {
+  position: absolute;
+  bottom: 60px;
+  border: 20px solid #ffffff;
+  border-radius: 10px;
+  position: relative;
+  background-color: #c4c4c4;
+  width: 456px;
+  height: 356px;
+  left: 189px;
+}
+.section2 .ContentExperinsr {
+  height: 903px;
+  padding-left: 30px;
+}
+.section2 .ContentExperinsr .TextH3 {
+  font-weight: bold;
+  font-size: 45px;
+}
+
 header .green {
   background-color: #0c4b35;
 }
