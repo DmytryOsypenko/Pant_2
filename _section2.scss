@@ -1,55 +1,61 @@
 .section2 {
-  // width: 1385px;
   display: flex;
-  justify-self: space-around;
-  .rowContainer {
-    width: 690px;
-    height: 903px;
-    display: flex;
-    // justify-content: space-between;
-    .imgCrts {
-      position: relative;
-      .imgBg {
-        background-color: #00730c;
-        width: 450px;
-        height: 706px;
-      }
-    }
+  justify-content: space-evenly;
+  .wrapper {
+    max-width: 1192px;
+    margin: auto;
+    .gorizont {
+      display: flex;
+      .flaxContainer {
+        display: flex;
+        .imgContant {
+          position: relative;
+          max-width: 100%;
+          width: 695px;
+          height: 997px;
+          display: block;
+          margin: auto;
+          .imgBgGreen {
+            width: 450px;
+            height: 706px;
+            background: #00730c;
+            position: absolute;
+            right: 430px;
+          }
+          .imgBgGreey {
+            width: 601px;
+            height: 706px;
+            background: #c4c4c4;
+            position: absolute;
+            left: -163px;
+            top: 15px;
+          }
 
-    .imgPosicion {
-      position: relative;
-      .imgCrts2 {
-        position: absolute;
-        background-color: #c4c4c4;
-        width: 601px;
-        height: 741px;
-        left: 45px;
-        bottom: -75px;
+          .imgBgSmall {
+            position: absolute;
+            width: 456px;
+            height: 356px;
+            background: #c4c4c4;
+            border: 20px solid #ffffff;
+            border-radius: 10px;
+            right: 234px;
+            top: 400px;
+          }
+        }
+        .secionContent {
+          display: flex;
+          .cont {
+            h3 {
+              font-size: 45px;
+              font-weight: bold;
+              color: #00730c;
+              span {
+                color: #212529;
+              }
+            }
+          }
+        }
       }
-    }
-    .imgSmall {
-      position: relative;
-      .imgCrts3 {
-        position: absolute;
-        // left: 204px;
-        bottom: 60px;
-        border: 20px solid #ffffff;
-        border-radius: 10px;
-        position: relative;
-        background-color: #c4c4c4;
-        width: 456px;
-        height: 356px;
-
-        left: 189px;
-      }
-    }
-  }
-  .ContentExperinsr {
-    height: 903px;
-    padding-left: 30px;
-    .TextH3 {
-      font-weight: bold;
-      font-size: 45px;
     }
   }
 }
