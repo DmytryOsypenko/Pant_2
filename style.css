@@ -51,53 +51,61 @@
 
 .section2 {
   display: flex;
-  justify-self: space-around;
+  justify-content: space-evenly;
 }
-.section2 .rowContainer {
-  width: 690px;
-  height: 903px;
+.section2 .wrapper {
+  max-width: 1192px;
+  margin: auto;
+}
+.section2 .wrapper .gorizont {
   display: flex;
 }
-.section2 .rowContainer .imgCrts {
-  position: relative;
+.section2 .wrapper .gorizont .flaxContainer {
+  display: flex;
 }
-.section2 .rowContainer .imgCrts .imgBg {
-  background-color: #00730c;
+.section2 .wrapper .gorizont .flaxContainer .imgContant {
+  position: relative;
+  max-width: 100%;
+  width: 695px;
+  height: 997px;
+  display: block;
+  margin: auto;
+}
+.section2 .wrapper .gorizont .flaxContainer .imgContant .imgBgGreen {
   width: 450px;
   height: 706px;
-}
-.section2 .rowContainer .imgPosicion {
-  position: relative;
-}
-.section2 .rowContainer .imgPosicion .imgCrts2 {
+  background: #00730c;
   position: absolute;
-  background-color: #c4c4c4;
+  right: 430px;
+}
+.section2 .wrapper .gorizont .flaxContainer .imgContant .imgBgGreey {
   width: 601px;
-  height: 741px;
-  left: 45px;
-  bottom: -75px;
-}
-.section2 .rowContainer .imgSmall {
-  position: relative;
-}
-.section2 .rowContainer .imgSmall .imgCrts3 {
+  height: 706px;
+  background: #c4c4c4;
   position: absolute;
-  bottom: 60px;
-  border: 20px solid #ffffff;
-  border-radius: 10px;
-  position: relative;
-  background-color: #c4c4c4;
+  left: -163px;
+  top: 15px;
+}
+.section2 .wrapper .gorizont .flaxContainer .imgContant .imgBgSmall {
+  position: absolute;
   width: 456px;
   height: 356px;
-  left: 189px;
+  background: #c4c4c4;
+  border: 20px solid #ffffff;
+  border-radius: 10px;
+  right: 234px;
+  top: 400px;
 }
-.section2 .ContentExperinsr {
-  height: 903px;
-  padding-left: 30px;
+.section2 .wrapper .gorizont .flaxContainer .secionContent {
+  display: flex;
 }
-.section2 .ContentExperinsr .TextH3 {
-  font-weight: bold;
+.section2 .wrapper .gorizont .flaxContainer .secionContent .cont h3 {
   font-size: 45px;
+  font-weight: bold;
+  color: #00730c;
+}
+.section2 .wrapper .gorizont .flaxContainer .secionContent .cont h3 span {
+  color: #212529;
 }
 
 header .green {
