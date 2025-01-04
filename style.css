@@ -76,14 +76,14 @@
   height: 706px;
   background: #00730c;
   position: absolute;
-  right: 430px;
+  right: 366px;
 }
 .section2 .wrapper .gorizont .flaxContainer .imgContant .imgBgGreey {
   width: 601px;
   height: 706px;
   background: #c4c4c4;
   position: absolute;
-  left: -163px;
+  left: -100px;
   top: 15px;
 }
 .section2 .wrapper .gorizont .flaxContainer .imgContant .imgBgSmall {
@@ -93,19 +93,30 @@
   background: #c4c4c4;
   border: 20px solid #ffffff;
   border-radius: 10px;
-  right: 234px;
+  right: 90px;
   top: 400px;
 }
 .section2 .wrapper .gorizont .flaxContainer .secionContent {
   display: flex;
 }
-.section2 .wrapper .gorizont .flaxContainer .secionContent .cont h3 {
+.section2 .wrapper .gorizont .flaxContainer .secionContent .iconMission {
+  display: flex;
+}
+
+.page3 h1 {
+  background-color: #00730c;
+  color: aqua;
   font-size: 45px;
   font-weight: bold;
-  color: #00730c;
 }
-.section2 .wrapper .gorizont .flaxContainer .secionContent .cont h3 span {
-  color: #212529;
+.page3 p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: grey;
+}
+.page3 p:hover {
+  color: #ffffff;
 }
 
 header .green {
