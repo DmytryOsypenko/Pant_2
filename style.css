@@ -103,20 +103,74 @@
   display: flex;
 }
 
-.page3 h1 {
-  background-color: #00730c;
-  color: aqua;
+.page {
+  background-color: #0c4b35;
+}
+.page .container {
+  display: flex;
+  align-items: center;
+  max-width: 1192px;
+  height: 655px;
+  margin: auto;
+}
+.page .container .choose_tex .title-h3 {
   font-size: 45px;
   font-weight: bold;
+  color: #ffffff;
+  padding-top: 100px;
+}
+.page .container .choose_tex .text {
+  padding-top: 30px;
+  font-size: 18px;
+  color: #ffffff;
+}
+.page .container .choose_tex .choose_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.page .container .choose_tex .choose_row .choose_span {
+  padding-top: 50px;
+}
+.page .container .choose_tex .choose_btn {
+  display: flex;
+  width: 170px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #00730c;
+  align-items: center;
+  margin-top: 50px;
+}
+.page .container .choose_tex .choose_btn a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 30px;
+}
+.page .container .choose_tex .choose_btn:hover {
+  background-color: #9fc21b;
+}
+.page .container .choose_caver {
+  padding-top: 100px;
+}
+
+.page3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page3 h1 {
+  color: red;
+  font-size: 45px;
 }
 .page3 p {
-  text-align: center;
+  font-size: 45px;
   font-weight: bold;
-  font-size: 20px;
-  color: grey;
+  color: aqua;
 }
 .page3 p:hover {
-  color: #ffffff;
+  color: blueviolet;
 }
 
 header .green {
@@ -192,14 +246,14 @@ header .nawBar .whiteCont .container .cont .menu-plants a:hover {
   color: #9fc21b;
 }
 header .nawBar .whiteCont .container .cont .btn {
+  display: flex;
   width: 170px;
   height: 50px;
   border-radius: 5px;
   background-color: #00730c;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 15px;
+  flex-direction: row;
+  justify-content: center;
 }
 header .nawBar .whiteCont .container .cont .btn:hover {
   background-color: #9fc21b;
