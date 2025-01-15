@@ -49,6 +49,10 @@
   color: #ffffff;
 }
 
+.body {
+  overflow-x: hidden;
+}
+
 .section2 {
   display: flex;
   justify-content: space-evenly;
@@ -182,7 +186,7 @@
 }
 .page3 .container .Working_text .Working_cart {
   display: flex;
-  gap: 30px;
+  gap: 7px;
   padding-top: 50px;
 }
 .page3 .container .Working_text .Working_cart .cart {
@@ -222,12 +226,12 @@
   padding-top: 100px;
 }
 .page4 .contenerPhone {
-  max-width: 1410px;
+  max-width: 1192px;
   width: 100%;
   margin: auto;
 }
 .page4 .contenerPhone .CallNomberPhone {
-  width: 1410px;
+  width: 1192px;
   height: 247px;
   background-color: #c4c4c4;
   display: flex;
@@ -262,13 +266,121 @@
   font-size: 20px;
 }
 
+.psge5 {
+  padding-top: 100px;
+}
+.psge5 .conteinerStaff {
+  max-width: 1192px;
+  width: 100%;
+  margin: auto;
+}
+.psge5 .conteinerStaff .titleh3 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #000000;
+}
+.psge5 .conteinerStaff .titleh3 span {
+  color: #00730c;
+}
+.psge5 .conteinerStaff .rowTextAndBtn {
+  display: flex;
+  padding-top: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.psge5 .conteinerStaff .rowTextAndBtn .lorSomeText {
+  width: 956px;
+  height: 60px;
+  color: #676767;
+  font-size: 20px;
+}
+.psge5 .conteinerStaff .rowTextAndBtn .btnDiscover {
+  width: 170px;
+  height: 50px;
+  background-color: #00730c;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+.psge5 .conteinerStaff .rowTextAndBtn .btnDiscover:hover {
+  background-color: #9fc21b;
+}
+
+.page6 {
+  padding-top: 50px;
+}
+.page6 .conteinerDorisJordan {
+  max-width: 1192px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+}
+.page6 .conteinerDorisJordan .DorisJordan {
+  width: 330px;
+  height: 408px;
+  background-color: #00730c;
+}
+.page6 .conteinerDorisJordan .DorisJordan h5 {
+  text-align: center;
+  padding-top: 50%;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+.page6 .conteinerDorisJordan .DorisJordan p {
+  text-align: center;
+  padding-top: 10px;
+  color: #ffffff;
+  font-size: 18px;
+}
+.page6 .conteinerDorisJordan .DorisJordan .rowDorisJordan {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.page6 .conteinerDorisJordan .DorisJordan .rowDorisJordan .social1 {
+  background-image: url("img/Google.svg");
+  width: 30px;
+  height: 30px;
+}
+.page6 .conteinerDorisJordan .DorisJordan .rowDorisJordan .social2 {
+  background-image: url("img/facebook.svg");
+  width: 30px;
+  height: 30px;
+}
+.page6 .conteinerDorisJordan .DorisJordan .rowDorisJordan .social3 {
+  background-image: url("img/twitter.svg");
+  width: 30px;
+  height: 30px;
+}
+.page6 .conteinerDorisJordan .DorisJordan .rowDorisJordan .social4 {
+  background-image: url("img/pinterest.svg");
+  width: 30px;
+  height: 30px;
+}
+.page6 .conteinerDorisJordan .DorisJordan .rowDorisJordan .social5 {
+  background-image: url("img/linkedin.svg");
+  width: 30px;
+  height: 30px;
+}
+.page6 .conteinerDorisJordan .DorisJordan .rowGrey {
+  background-color: #676767;
+}
+
 header .green {
   background-color: #0c4b35;
 }
 header .green .container {
-  max-width: 1410 px;
-  padding-left: 15 px;
-  padding-right: 15 px;
+  max-width: 1192px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 header .green .container .headrMain {
@@ -309,9 +421,9 @@ header .nawBar .whiteCont {
   background-color: #ffffff;
 }
 header .nawBar .whiteCont .container {
-  max-width: 1410 px;
-  padding-left: 15 px;
-  padding-right: 15 px;
+  max-width: 11192px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 header .nawBar .whiteCont .container .cont {
