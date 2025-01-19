@@ -330,6 +330,45 @@
       .rowGrey {
         background-color: #676767;
       }
+
+      .DorisJordan_grey {
+        width: 290px;
+        height: 318px;
+        background-color: #676767;
+      }
+    }
+  }
+}
+
+.page7 {
+  .conteinerQuestions {
+    max-width: 1192px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    .AskedQuestions {
+      width: 50%;
+      .textAskedQuestions {
+        .Questions {
+          font-size: 45px;
+          font-weight: bold;
+          color: #00730c;
+        }
+        span {
+          color: #000000;
+        }
+
+        .textAsked {
+          font-size: 18px;
+          color: #676767;
+        }
+      }
+    }
+    .imgQuestions {
+      width: 500px;
+      height: 600px;
+      background-color: #676767;
     }
   }
 }
