@@ -373,6 +373,39 @@
 .page6 .conteinerDorisJordan .DorisJordan .rowGrey {
   background-color: #676767;
 }
+.page6 .conteinerDorisJordan .DorisJordan .DorisJordan_grey {
+  width: 290px;
+  height: 318px;
+  background-color: #676767;
+}
+
+.page7 .conteinerQuestions {
+  max-width: 1192px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.page7 .conteinerQuestions .AskedQuestions {
+  width: 50%;
+}
+.page7 .conteinerQuestions .AskedQuestions .textAskedQuestions .Questions {
+  font-size: 45px;
+  font-weight: bold;
+  color: #00730c;
+}
+.page7 .conteinerQuestions .AskedQuestions .textAskedQuestions span {
+  color: #000000;
+}
+.page7 .conteinerQuestions .AskedQuestions .textAskedQuestions .textAsked {
+  font-size: 18px;
+  color: #676767;
+}
+.page7 .conteinerQuestions .imgQuestions {
+  width: 500px;
+  height: 600px;
+  background-color: #676767;
+}
 
 header .green {
   background-color: #0c4b35;
