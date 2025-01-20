@@ -80,14 +80,14 @@
   height: 706px;
   background: #00730c;
   position: absolute;
-  right: 366px;
+  right: 250px;
 }
 .section2 .wrapper .gorizont .flaxContainer .imgContant .imgBgGreey {
   width: 601px;
   height: 706px;
   background: #c4c4c4;
   position: absolute;
-  left: -100px;
+  left: 15px;
   top: 15px;
 }
 .section2 .wrapper .gorizont .flaxContainer .imgContant .imgBgSmall {
@@ -97,7 +97,7 @@
   background: #c4c4c4;
   border: 20px solid #ffffff;
   border-radius: 10px;
-  right: 90px;
+  right: 55px;
   top: 400px;
 }
 .section2 .wrapper .gorizont .flaxContainer .secionContent {
@@ -319,11 +319,11 @@
   width: 100%;
   margin: auto;
   display: flex;
-  gap: 10px;
+  gap: 38px;
 }
 .page6 .conteinerDorisJordan .DorisJordan {
-  width: 330px;
-  height: 408px;
+  width: 270px;
+  height: 409px;
   background-color: #00730c;
 }
 .page6 .conteinerDorisJordan .DorisJordan h5 {
@@ -374,11 +374,14 @@
   background-color: #676767;
 }
 .page6 .conteinerDorisJordan .DorisJordan .DorisJordan_grey {
-  width: 290px;
+  width: 270px;
   height: 318px;
   background-color: #676767;
 }
 
+.page7 {
+  padding-top: 100px;
+}
 .page7 .conteinerQuestions {
   max-width: 1192px;
   width: 100%;
@@ -398,8 +401,31 @@
   color: #000000;
 }
 .page7 .conteinerQuestions .AskedQuestions .textAskedQuestions .textAsked {
+  padding-top: 30px;
   font-size: 18px;
   color: #676767;
+}
+.page7 .conteinerQuestions .wrapper {
+  padding-top: 40px;
+}
+.page7 .conteinerQuestions .wrapper .accordion details {
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}
+.page7 .conteinerQuestions .wrapper .accordion details summary {
+  padding: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #fff8f1;
+}
+.page7 .conteinerQuestions .wrapper .accordion details summary:hover {
+  background-color: #00730c;
+}
+.page7 .conteinerQuestions .wrapper .accordion details p {
+  padding: 15px;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
 }
 .page7 .conteinerQuestions .imgQuestions {
   width: 500px;
