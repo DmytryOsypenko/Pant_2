@@ -432,7 +432,13 @@
 .page7 .conteinerQuestions .imgQuestions {
   width: 500px;
   height: 600px;
-  background-color: #676767;
+  background-color: #c4c4c4;
+}
+.page7 .conteinerQuestions .imgQuestions p {
+  padding-top: 50%;
+  color: #676767;
+  text-align: center;
+  font-size: 58px;
 }
 
 header .green {
