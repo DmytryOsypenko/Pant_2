@@ -415,17 +415,19 @@
 }
 .page7 .conteinerQuestions .wrapper .accordion details summary {
   padding: 30px;
-  font-size: 18px;
+  font-size: 24px;
   cursor: pointer;
   background-color: #fff8f1;
 }
 .page7 .conteinerQuestions .wrapper .accordion details summary:hover {
   background-color: #00730c;
+  color: #ffffff;
 }
 .page7 .conteinerQuestions .wrapper .accordion details p {
   padding: 15px;
   background-color: #fff;
   border-top: 1px solid #ddd;
+  color: #676767;
 }
 .page7 .conteinerQuestions .imgQuestions {
   width: 500px;
