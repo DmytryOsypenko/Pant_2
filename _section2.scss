@@ -378,13 +378,12 @@
 
           summary {
             padding: 30px;
-            font-size: 24px;
+            font-size: 18px;
             cursor: pointer;
             background-color: #fff8f1;
 
             &:hover {
               background-color: #00730c;
-              color: #ffffff;
             }
           }
 
@@ -392,7 +391,6 @@
             padding: 15px;
             background-color: #fff;
             border-top: 1px solid #ddd;
-            color: #676767;
           }
         }
       }
@@ -400,13 +398,7 @@
     .imgQuestions {
       width: 500px;
       height: 600px;
-      background-color: #c4c4c4;
-      p {
-        padding-top: 50%;
-        color: #676767;
-        text-align: center;
-        font-size: 58px;
-      }
+      background-color: #676767;
     }
   }
 }
