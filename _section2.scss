@@ -384,6 +384,9 @@
 
             &:hover {
               background-color: #00730c;
+              color: #ffffff;
+              font-size: 24px;
+              font-weight: bold;
             }
           }
 
@@ -391,6 +394,8 @@
             padding: 15px;
             background-color: #fff;
             border-top: 1px solid #ddd;
+            color: #676767;
+            font-size: 16px;
           }
         }
       }
@@ -398,7 +403,13 @@
     .imgQuestions {
       width: 500px;
       height: 600px;
-      background-color: #676767;
+      background-color: #c4c4c4;
+      p {
+        padding-top: 50%;
+        text-align: center;
+        color: #676767;
+        font-size: 58px;
+      }
     }
   }
 }
