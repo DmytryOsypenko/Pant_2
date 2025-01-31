@@ -466,7 +466,7 @@
       .cars2 {
         width: 450px;
         height: 459px;
-        background-color: #ffffff;
+        background-color: #f1eeeb;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -496,14 +496,45 @@
           color: #00730c;
         }
       }
+
+      .LoremIpsumDolor1 {
+        text-align: center;
+        color: #ffffff;
+        font-size: 18px;
+
+        a {
+          color: #ffffff;
+        }
+      }
+
+      .LoremIpsumDolor {
+        text-align: center;
+        color: #676767;
+        font-size: 18px;
+
+        a {
+          color: #676767;
+        }
+      }
     }
   }
 }
 
 .page9 {
-  .rer {
+  padding-top: 100px;
+  .wrapper {
+    // max-width: 1192px;
     width: 100%;
-    height: 10px;
-    background-color: #9fc21b;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    .logoPartner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 202px;
+      height: 100px;
+      background-color: #c4c4c4;
+    }
   }
 }

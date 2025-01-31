@@ -499,7 +499,7 @@
 .page8 .conteinerArticles .ConteinerCards .cars2 {
   width: 450px;
   height: 459px;
-  background-color: #ffffff;
+  background-color: #f1eeeb;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -528,11 +528,39 @@
   text-decoration: none;
   color: #00730c;
 }
+.page8 .conteinerArticles .ConteinerCards .LoremIpsumDolor1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+}
+.page8 .conteinerArticles .ConteinerCards .LoremIpsumDolor1 a {
+  color: #ffffff;
+}
+.page8 .conteinerArticles .ConteinerCards .LoremIpsumDolor {
+  text-align: center;
+  color: #676767;
+  font-size: 18px;
+}
+.page8 .conteinerArticles .ConteinerCards .LoremIpsumDolor a {
+  color: #676767;
+}
 
-.page9 .rer {
+.page9 {
+  padding-top: 100px;
+}
+.page9 .wrapper {
   width: 100%;
-  height: 10px;
-  background-color: #9fc21b;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.page9 .wrapper .logoPartner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 202px;
+  height: 100px;
+  background-color: #c4c4c4;
 }
 
 header .green {
