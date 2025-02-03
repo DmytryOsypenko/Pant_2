@@ -540,9 +540,12 @@
 }
 
 .page10 {
+  padding-top: 100px;
   .wrapperRow {
     width: 1192px;
     margin: auto;
+    position: relative;
+    top: -70px;
     .BanerBtn {
       width: 1192px;
       height: 125px;
@@ -550,6 +553,7 @@
       display: flex;
       justify-content: space-evenly;
       align-items: center;
+      position: absolute;
       .SomeText {
         font-size: 18px;
         font-weight: bold;
@@ -566,10 +570,13 @@
         align-items: center;
         justify-content: space-evenly;
         border-radius: 10px;
+        cursor: pointer;
+        &:hover {
+          background-color: #9fc21b;
+        }
         a {
           text-decoration: none;
           color: #ffffff;
-          cursor: pointer;
         }
       }
     }
@@ -579,12 +586,99 @@
 .footer {
   background-color: #0c4b35;
   height: 450px;
+  color: white;
+  text-decoration: none;
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
   .wrapperRow {
+    padding-top: 115px;
     width: 1192px;
     margin: auto;
     .OllContend {
       display: flex;
       justify-content: space-around;
+      .SubscribeTo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        p {
+          padding-top: 80px;
+          font-size: 18px;
+        }
+        .containetEmail {
+          padding-top: 80px;
+        }
+      }
+      .ContactNtxt {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .UsefulLinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 230px;
+        align-items: flex-start;
+
+        .conteinerListMain {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          justify-content: space-around;
+
+          .ListHome {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            gap: 30px;
+          }
+          .ListBlog {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            gap: 30px;
+          }
+        }
+      }
+      .PopularSevices {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 30px;
+      }
+    }
+    .main_link_social {
+      display: flex;
+      gap: 30px;
+      .social {
+        width: 40px;
+        height: 40px;
+        border-radius: 25px;
+        border: solid 1px #ffffff;
+        display: flex;
+      }
+      .fasebook {
+        background-image: url(img/Facebook_Logo.svg);
+        background-repeat: no-repeat;
+      }
+      .linkin {
+        background-image: url(img/linkedin_icon_Logo.svg);
+        background-repeat: no-repeat;
+      }
+      .google {
+        background-image: url(img/Google.svg);
+        background-repeat: no-repeat;
+      }
+      .twiter {
+        background-image: url(img/twiter_Logo.svg);
+        background-repeat: no-repeat;
+      }
     }
   }
 }

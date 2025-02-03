@@ -563,9 +563,14 @@
   background-color: #c4c4c4;
 }
 
+.page10 {
+  padding-top: 100px;
+}
 .page10 .wrapperRow {
   width: 1192px;
   margin: auto;
+  position: relative;
+  top: -70px;
 }
 .page10 .wrapperRow .BanerBtn {
   width: 1192px;
@@ -574,6 +579,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  position: absolute;
 }
 .page10 .wrapperRow .BanerBtn .SomeText {
   font-size: 18px;
@@ -590,24 +596,111 @@
   align-items: center;
   justify-content: space-evenly;
   border-radius: 10px;
+  cursor: pointer;
+}
+.page10 .wrapperRow .BanerBtn .btnGet:hover {
+  background-color: #9fc21b;
 }
 .page10 .wrapperRow .BanerBtn .btnGet a {
   text-decoration: none;
   color: #ffffff;
-  cursor: pointer;
 }
 
 .footer {
   background-color: #0c4b35;
   height: 450px;
+  color: white;
+  text-decoration: none;
+}
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
 }
 .footer .wrapperRow {
+  padding-top: 115px;
   width: 1192px;
   margin: auto;
 }
 .footer .wrapperRow .OllContend {
   display: flex;
   justify-content: space-around;
+}
+.footer .wrapperRow .OllContend .SubscribeTo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+.footer .wrapperRow .OllContend .SubscribeTo p {
+  padding-top: 80px;
+  font-size: 18px;
+}
+.footer .wrapperRow .OllContend .SubscribeTo .containetEmail {
+  padding-top: 80px;
+}
+.footer .wrapperRow .OllContend .ContactNtxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer .wrapperRow .OllContend .UsefulLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 230px;
+  align-items: flex-start;
+}
+.footer .wrapperRow .OllContend .UsefulLinks .conteinerListMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+.footer .wrapperRow .OllContend .UsefulLinks .conteinerListMain .ListHome {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer .wrapperRow .OllContend .UsefulLinks .conteinerListMain .ListBlog {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer .wrapperRow .OllContend .PopularSevices {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+.footer .wrapperRow .main_link_social {
+  display: flex;
+  gap: 30px;
+}
+.footer .wrapperRow .main_link_social .social {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  border: solid 1px #ffffff;
+  display: flex;
+}
+.footer .wrapperRow .main_link_social .fasebook {
+  background-image: url(img/Facebook_Logo.svg);
+  background-repeat: no-repeat;
+}
+.footer .wrapperRow .main_link_social .linkin {
+  background-image: url(img/linkedin_icon_Logo.svg);
+  background-repeat: no-repeat;
+}
+.footer .wrapperRow .main_link_social .google {
+  background-image: url(img/Google.svg);
+  background-repeat: no-repeat;
+}
+.footer .wrapperRow .main_link_social .twiter {
+  background-image: url(img/twiter_Logo.svg);
+  background-repeat: no-repeat;
 }
 
 header .green {
