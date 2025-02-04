@@ -608,7 +608,7 @@
 
 .footer {
   background-color: #0c4b35;
-  height: 450px;
+  height: 550px;
   color: white;
   text-decoration: none;
 }
@@ -637,6 +637,11 @@
 }
 .footer .wrapperRow .OllContend .SubscribeTo .containetEmail {
   padding-top: 80px;
+}
+.footer .wrapperRow .OllContend .SubscribeTo .containetEmail input:active,
+.footer .wrapperRow .OllContend .SubscribeTo .containetEmail input:hover,
+.footer .wrapperRow .OllContend .SubscribeTo .containetEmail input:focus {
+  outline: none;
 }
 .footer .wrapperRow .OllContend .ContactNtxt {
   display: flex;
@@ -676,31 +681,32 @@
   gap: 30px;
 }
 .footer .wrapperRow .main_link_social {
+  padding-top: 40px;
   display: flex;
   gap: 30px;
 }
 .footer .wrapperRow .main_link_social .social {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 25px;
   border: solid 1px #ffffff;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.footer .wrapperRow .main_link_social .fasebook {
-  background-image: url(img/Facebook_Logo.svg);
-  background-repeat: no-repeat;
+.footer .wrapperRow .main_link_social .social:hover {
+  background-color: #c4c4c4;
 }
-.footer .wrapperRow .main_link_social .linkin {
-  background-image: url(img/linkedin_icon_Logo.svg);
-  background-repeat: no-repeat;
+.footer .line {
+  padding-top: 40px;
 }
-.footer .wrapperRow .main_link_social .google {
-  background-image: url(img/Google.svg);
-  background-repeat: no-repeat;
+.footer .LastText {
+  display: flex;
+  justify-content: space-around;
 }
-.footer .wrapperRow .main_link_social .twiter {
-  background-image: url(img/twiter_Logo.svg);
-  background-repeat: no-repeat;
+.footer .LastText .mainFoter {
+  display: flex;
+  gap: 30px;
 }
 
 header .green {
