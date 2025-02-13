@@ -643,6 +643,14 @@
 .footer .wrapperRow .OllContend .SubscribeTo .containetEmail input:focus {
   outline: none;
 }
+.footer .wrapperRow .OllContend .SubscribeTo .containetEmail input {
+  background: transparent;
+}
+.footer .wrapperRow .OllContend .SubscribeTo .containetEmail .whiteLine {
+  height: 1px;
+  background: #ffffff;
+  margin: 10 -5px;
+}
 .footer .wrapperRow .OllContend .ContactNtxt {
   display: flex;
   flex-direction: column;

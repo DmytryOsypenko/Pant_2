@@ -615,6 +615,15 @@
           input:focus {
             outline: none;
           }
+          input {
+            background: transparent;
+          }
+
+          .whiteLine {
+            height: 1px;
+            background: #ffffff;
+            margin: 10 -5px;
+          }
         }
       }
       .ContactNtxt {
