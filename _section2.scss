@@ -699,3 +699,12 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .contact-menu {
+    width: 100%;
+  }
+  .inf {
+    display: none;
+  }
+}

@@ -717,6 +717,14 @@
   gap: 30px;
 }
 
+@media (max-width: 768px) {
+  .contact-menu {
+    width: 100%;
+  }
+  .inf {
+    display: none;
+  }
+}
 header .green {
   background-color: #0c4b35;
 }
