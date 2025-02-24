@@ -701,11 +701,69 @@
   }
 }
 
+#burger,
+[for="burger"] {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .contact-menu {
     width: 100%;
   }
   .inf {
     display: none;
+  }
+
+  .cont {
+    width: 100%;
+    .logo {
+      img {
+        width: 90px;
+        height: 40px;
+      }
+    }
+
+    .menu {
+      [for="burger"] {
+        display: block;
+        position: fixed;
+        width: 30px;
+        text-align: center;
+        right: -51px;
+        top: 90px;
+        width: 100%;
+      }
+
+      [for="burger"]::before {
+        content: "☰";
+      }
+    }
+
+    .menu-plants {
+      width: 100%;
+      display: none;
+      position: fixed;
+      top: 0;
+      margin-top: 30px;
+      li {
+        width: 345px;
+      }
+    }
+
+    #burger:checked + label + ul {
+      display: block;
+    }
+
+    #burger:checked + ::before {
+      content: "⮾";
+    }
+
+    .btn {
+      span {
+        display: none;
+        width: 40px;
+        height: 34px;
+      }
+    }
   }
 }

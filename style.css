@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .pageOne {
   padding-top: 100px;
   height: 963px;
@@ -717,12 +718,54 @@
   gap: 30px;
 }
 
+#burger,
+[for=burger] {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .contact-menu {
     width: 100%;
   }
   .inf {
     display: none;
+  }
+  .cont {
+    width: 100%;
+  }
+  .cont .logo img {
+    width: 90px;
+    height: 40px;
+  }
+  .cont .menu [for=burger] {
+    display: block;
+    position: fixed;
+    width: 30px;
+    text-align: center;
+    right: -51px;
+    top: 90px;
+    width: 100%;
+  }
+  .cont .menu [for=burger]::before {
+    content: "☰";
+  }
+  .cont .menu-plants {
+    width: 100%;
+    display: none;
+    position: fixed;
+    top: 0;
+    margin-top: 30px;
+  }
+  .cont #burger:checked + label + ul {
+    display: block;
+  }
+  .cont #burger:checked + ::before {
+    content: "⮾";
+  }
+  .cont .btn span {
+    display: none;
+    width: 40px;
+    height: 34px;
   }
 }
 header .green {
