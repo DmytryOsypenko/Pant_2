@@ -725,7 +725,8 @@
 
     .menu {
       [for="burger"] {
-        display: block;
+        display: flex;
+        flex-direction: column;
         position: fixed;
         width: 30px;
         text-align: center;
@@ -765,5 +766,85 @@
         height: 34px;
       }
     }
+  }
+
+  .bg {
+    width: 100%;
+    height: 812px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    width: 375px;
+  }
+
+  .img {
+    width: 375px;
+    height: 240px;
+  }
+
+  .pageOne {
+    width: 100%;
+    // height: 1261px;
+  }
+
+  .Services {
+    width: 375px;
+    display: flex;
+
+    h3 {
+      font-size: 28px;
+    }
+    .lorenText {
+      width: 375px !important;
+      p {
+        width: 344px;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .ConteinerForCsrds {
+    width: 375px;
+    height: 1260px;
+    .oneSekcionCart {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      margin-right: 10px;
+      .Cards {
+        width: 100%;
+        margin-left: 220px;
+      }
+    }
+  }
+
+  .section2 {
+    width: 100%;
+    padding-top: 2335px;
+    .wrapper {
+      .gorizont {
+        flex-direction: column;
+        .secionContent {
+          .cont {
+            h3 {
+              font-size: 28px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .page {
+    padding-top: 100px;
+    .container {
+      flex-direction: column;
+    }
+  }
+
+  .page3 {
+    padding-top: 400px;
   }
 }

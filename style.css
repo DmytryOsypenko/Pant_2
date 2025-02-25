@@ -738,7 +738,8 @@
     height: 40px;
   }
   .cont .menu [for=burger] {
-    display: block;
+    display: flex;
+    flex-direction: column;
     position: fixed;
     width: 30px;
     text-align: center;
@@ -756,6 +757,9 @@
     top: 0;
     margin-top: 30px;
   }
+  .cont .menu-plants li {
+    width: 345px;
+  }
   .cont #burger:checked + label + ul {
     display: block;
   }
@@ -766,6 +770,69 @@
     display: none;
     width: 40px;
     height: 34px;
+  }
+  .bg {
+    width: 100%;
+    height: 812px;
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    width: 375px;
+  }
+  .img {
+    width: 375px;
+    height: 240px;
+  }
+  .pageOne {
+    width: 100%;
+  }
+  .Services {
+    width: 375px;
+    display: flex;
+  }
+  .Services h3 {
+    font-size: 28px;
+  }
+  .Services .lorenText {
+    width: 375px !important;
+  }
+  .Services .lorenText p {
+    width: 344px;
+    font-size: 14px;
+  }
+  .ConteinerForCsrds {
+    width: 375px;
+    height: 1260px;
+  }
+  .ConteinerForCsrds .oneSekcionCart {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+  .ConteinerForCsrds .oneSekcionCart .Cards {
+    width: 100%;
+    margin-left: 220px;
+  }
+  .section2 {
+    width: 100%;
+    padding-top: 2335px;
+  }
+  .section2 .wrapper .gorizont {
+    flex-direction: column;
+  }
+  .section2 .wrapper .gorizont .secionContent .cont h3 {
+    font-size: 28px;
+  }
+  .page {
+    padding-top: 100px;
+  }
+  .page .container {
+    flex-direction: column;
+  }
+  .page3 {
+    padding-top: 400px;
   }
 }
 header .green {
