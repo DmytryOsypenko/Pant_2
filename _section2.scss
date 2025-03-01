@@ -835,6 +835,10 @@
         }
       }
     }
+
+    .btn {
+      display: none;
+    }
   }
 
   .page {
@@ -846,5 +850,87 @@
 
   .page3 {
     padding-top: 400px;
+    .container {
+      .Working_text {
+        .Working_cart {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+
+  .page4 {
+    padding-top: 1400px;
+    .contenerPhone {
+      .CallNomberPhone {
+        width: 100%;
+        flex-direction: column;
+      }
+    }
+  }
+
+  .psge5 {
+    .conteinerStaff {
+      .rowTextAndBtn {
+        flex-direction: column;
+      }
+    }
+  }
+
+  .page6 {
+    .conteinerDorisJordan {
+      flex-wrap: wrap;
+    }
+  }
+  .page7 {
+    .conteinerQuestions {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  }
+
+  .page8 {
+    .titleContent {
+      flex-wrap: wrap;
+      width: 375px;
+      p {
+        width: 345px !important;
+        font-size: 14px;
+      }
+    }
+    .ConteinerCards {
+      padding-top: 100px;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  }
+
+  .page9 {
+    .wrapper {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  }
+
+  .page10 {
+    .wrapperRow {
+      .BanerBtn {
+        flex-direction: column;
+        width: 670px !important;
+      }
+    }
+  }
+  footer {
+    width: 100%;
+    height: 1300px !important;
+    .wrapperRow {
+      .OllContend {
+        flex-direction: column;
+      }
+      .main_link_social {
+        flex-direction: column;
+      }
+    }
   }
 }

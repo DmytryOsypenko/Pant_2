@@ -825,6 +825,9 @@
   .section2 .wrapper .gorizont .secionContent .cont h3 {
     font-size: 28px;
   }
+  .section2 .btn {
+    display: none;
+  }
   .page {
     padding-top: 100px;
   }
@@ -833,6 +836,58 @@
   }
   .page3 {
     padding-top: 400px;
+  }
+  .page3 .container .Working_text .Working_cart {
+    display: flex;
+    flex-direction: column;
+  }
+  .page4 {
+    padding-top: 1400px;
+  }
+  .page4 .contenerPhone .CallNomberPhone {
+    width: 100%;
+    flex-direction: column;
+  }
+  .psge5 .conteinerStaff .rowTextAndBtn {
+    flex-direction: column;
+  }
+  .page6 .conteinerDorisJordan {
+    flex-wrap: wrap;
+  }
+  .page7 .conteinerQuestions {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .page8 .titleContent {
+    flex-wrap: wrap;
+    width: 375px;
+  }
+  .page8 .titleContent p {
+    width: 345px !important;
+    font-size: 14px;
+  }
+  .page8 .ConteinerCards {
+    padding-top: 100px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .page9 .wrapper {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .page10 .wrapperRow .BanerBtn {
+    flex-direction: column;
+    width: 670px !important;
+  }
+  footer {
+    width: 100%;
+    height: 1300px !important;
+  }
+  footer .wrapperRow .OllContend {
+    flex-direction: column;
+  }
+  footer .wrapperRow .main_link_social {
+    flex-direction: column;
   }
 }
 header .green {
